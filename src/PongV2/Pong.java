@@ -109,8 +109,8 @@ public class Pong implements ActionListener, KeyListener {
                     }
                 }
             }
-            ball.update(player1, player2);
         }
+        ball.update(player1, player2);
     }
 
     public void render(Graphics2D g) {
